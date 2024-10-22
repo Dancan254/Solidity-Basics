@@ -29,7 +29,7 @@ contract SimpleStorage{
     //functions
     uint256 public numToUpdate;
 
-    function store(uint256 _numToUpdate) public {
+    function store(uint256 _numToUpdate) public virtual {
         numToUpdate = _numToUpdate;
     }
 
